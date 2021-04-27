@@ -9,7 +9,7 @@ import {postFormatter} from '../utils/prismicResponseFormatter'
 import ptBR from 'date-fns/locale/pt-BR'
 import styles from './home.module.scss';
 import Header from '../components/Header';
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 
 interface Post {
   uid?: string;
@@ -80,9 +80,7 @@ interface HomeProps {
           </button>
 
         )}
-  {/*
-         <button type='button' onClick={carregarMaisPosts}>Carregar mais posts</button>*/}
-      </>
+    </>
   )
  }
 
